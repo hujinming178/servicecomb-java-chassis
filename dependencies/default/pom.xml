@@ -69,7 +69,7 @@
     <javax-transaction.version>1.2</javax-transaction.version>
     <javax-ws-rs.version>2.1</javax-ws-rs.version>
     <jersey.version>2.27</jersey.version>
-    <jettison.version>1.4.0</jettison.version>
+    <jettison.version>1.4.1</jettison.version>
     <jmockit.version>1.30</jmockit.version>
     <json-lib.version>2.4</json-lib.version>
     <junit.version>4.13.2</junit.version>
