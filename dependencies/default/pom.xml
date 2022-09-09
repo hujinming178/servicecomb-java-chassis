@@ -37,7 +37,7 @@
     <aspectj.version>1.9.9.1</aspectj.version>
     <awaitility.version>4.2.0</awaitility.version>
     <assertj.version>3.23.1</assertj.version>
-    <brave.version>5.13.10</brave.version>
+    <brave.version>5.13.11</brave.version>
     <classmate.version>1.5.1</classmate.version>
     <commons-beanutils.version>1.9.4</commons-beanutils.version>
     <commons-configuration.version>1.10</commons-configuration.version>
@@ -58,23 +58,23 @@
     <hibernate-validator.version>6.2.4.Final</hibernate-validator.version>
     <httpcomponents.version>4.5.13</httpcomponents.version>
     <hystrix.version>1.5.18</hystrix.version>
-    <jackson.version>2.13.3</jackson.version>
+    <jackson.version>2.13.4</jackson.version>
     <java-websocket.version>1.5.3</java-websocket.version>
     <javax-annotation.version>1.3.2</javax-annotation.version>
     <javax-inject.version>1</javax-inject.version>
     <javax-resource.version>1.5</javax-resource.version>
     <jakarta.ws.rs.version>2.1.6</jakarta.ws.rs.version>
-    <jersey.version>2.36</jersey.version>
+    <jersey.version>2.37</jersey.version>
     <jmockit.version>1.34</jmockit.version>
     <junit.version>4.13.2</junit.version>
     <junit5.version>5.9.0</junit5.version>
     <log4j.version>1.2.17</log4j.version>
     <log4j2.version>2.18.0</log4j2.version>
-    <logback.version>1.2.11</logback.version>
+    <logback.version>1.4.0</logback.version>
     <mockito.version>4.0.0</mockito.version>
-    <mock-server.version>5.13.2</mock-server.version>
+    <mock-server.version>5.14.0</mock-server.version>
     <netflix-commons.version>0.3.0</netflix-commons.version>
-    <netty.version>4.1.79.Final</netty.version>
+    <netty.version>4.1.81.Final</netty.version>
     <okhttp3.version>4.10.0</okhttp3.version>
     <maven-model.version>3.8.6</maven-model.version>
     <micrometer.version>1.9.3</micrometer.version>
@@ -91,7 +91,7 @@
     <servo.version>0.13.2</servo.version>
     <servlet-api.version>4.0.4</servlet-api.version>
     <slf4j.version>1.7.36</slf4j.version>
-    <snakeyaml.version>1.30</snakeyaml.version>
+    <snakeyaml.version>1.31</snakeyaml.version>
     <spectator.version>1.3.6</spectator.version>
     <spring.version>5.3.22</spring.version>
     <spring-boot.version>2.6.7</spring-boot.version>
@@ -516,7 +516,6 @@
         <groupId>io.zipkin.zipkin2</groupId>
         <artifactId>zipkin-junit</artifactId>
         <version>${zipkin.version}</version>
-        <scope>test</scope>
       </dependency>
 
       <dependency>
